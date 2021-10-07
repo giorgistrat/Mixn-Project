@@ -26,9 +26,6 @@ body {
       color: $primary;
     }
   }
-
-  .logo {
-  }
 }
 
 // Showcase Area
@@ -89,6 +86,8 @@ body {
     transform: scale(1.5);
   }
 }
+
+// Responsive Media Objects
 
 @media screen and (max-width: 768px) {
   #showcase {

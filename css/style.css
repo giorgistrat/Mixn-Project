@@ -11125,10 +11125,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.row {
+  overflow: hidden;
+}
+
 .navbar {
   box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.9;
   background: #fff;
+  width: 100vw;
 }
 .navbar .nav-item {
   font-size: 1.4rem;
@@ -11163,6 +11168,9 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+#authors .row {
+  overflow: visible;
+}
 #authors img {
   margin-top: -50px;
 }

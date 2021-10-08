@@ -10,12 +10,17 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.row {
+  overflow: hidden;
+}
+
 // Navbar
 
 .navbar {
   box-shadow: 2px 2px 5px $primary;
   opacity: 0.9;
   background: #fff;
+  width: 100vw;
 
   .nav-item {
     font-size: 1.4rem;
@@ -63,6 +68,10 @@ body {
 
 // Author Section
 #authors {
+  .row {
+    overflow: visible;
+  }
+
   img {
     margin-top: -50px;
   }
